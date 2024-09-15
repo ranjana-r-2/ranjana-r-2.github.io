@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 1vw;
+}
+ul{
+    margin: 0px;
+}
+
+body > header {    
+    background-color: #333; 
+    color: white;   
+    display: flex;    
+    height: 10vh;  
+    align-items: center;  
+    justify-content: space-around; 
+}
+
+#logo {                                   
+    margin: 0px;    
+    font-family: "Fredoka One", sans-serif; 
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}  
+.special-menu {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: inline-flex; 
+    gap: 20px;
+}
+
+.special-menu li {
+    margin: 0;
+    
+}
+
+.special-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.special-menu a:hover {
+    color: #007bff;
+} 
+
+#nav-ul {    
+    display: flex; 
+}
+
+#nav-ul > li {    
+    padding: 8px;    
+    margin: 16px; 
+} 
+
+body > header > nav > ul {    
+    list-style: none;    
+    text-decoration: none; 
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+section {
+    width: 80%; 
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+body > footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.recipe-container {
+    display: flex;           
+    flex-wrap: wrap;         
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.recipe-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;              
+    box-sizing: border-box; 
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.recipe-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.recipe-card p {
+    margin-bottom: 1rem;
+}
+.recipe-details {
+    display: none; 
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.recipe-details.active {
+    display: block; 
+}
+button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e5533f;
+}
+
+#home {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+#breakfast, #lunch, #dinner, #desserts {
+    padding: 1rem 0;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 0.5rem;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    color: #333;
+}

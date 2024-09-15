@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">WorldofRecipes</h1>
+        <nav>
+            <ul id="nav-ul">
+                <li><a href="#home" class="navbutton">Home</a></li>
+                <li><a href="#breakfast" class="navbutton">Breakfast</a></li>
+                <li><a href="#lunch" class="navbutton">Lunch</a></li>
+                <li><a href="#dinner" class="navbutton">Dinner</a></li>
+                <li><a href="#desserts" class="navbutton">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Home Section -->
+        <section id="home" aria-labelledby="home-heading">
+            <h2 id="home-heading">Welcome to World of Recipes</h2>
+            <p>Explore our wide range of recipes, from healthy breakfasts to indulgent desserts. Whether you're cooking for yourself or a family, we have something for everyone!</p>
+            <p>Check out our featured recipes of the month:</p>
+            <ul class="special-menu">
+                <li><a href="#breakfast">Avocado Toast</a></li>
+                <li><a href="#lunch">Caprese Sandwich</a></li>
+                <li><a href="#dinner">Spaghetti Carbonara</a></li>
+                <li><a href="#desserts">Cheesecake</a></li>
+            </ul>
+            
+            <figure>
+                <img src="https://img.freepik.com/free-photo/assorted-mediterranean-food_23-2147772052.jpg?t=st=1726365576~exp=1726369176~hmac=8ef77c5342df471d531c09e60d9f2d8aa699b151196b2c4b7a308889354eac63&w=1380" alt="Delicious Food" />
+                <figcaption>Delicious meals to start your culinary journey.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Breakfast Section -->
+        <section id="breakfast" aria-labelledby="breakfast-heading">
+            <h2 id="breakfast-heading">Breakfast Recipes</h2>
+            <div class="recipe-container">
+                <div class="recipe-card">
+                    <article>
+                        <h3>Avocado Toast</h3>
+                        <img src="https://images.pexels.com/photos/1656685/pexels-photo-1656685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Avocado Toast" />
+                        <p>A delicious and nutritious way to start your morning.</p>
+                        <button class="read-more-btn" data-recipe="avocado-toast">Read More</button>
+                        <div class="recipe-details" id="avocado-toast">
+                            <p>Ingredients: Bread, Avocado, Lemon Juice, Salt, Pepper, Optional: Tomatoes, Red Pepper Flakes.</p>
+                            <p>Instructions: Toast the bread. Mash the avocado with lemon juice, salt, and pepper. Spread over the toast and add optional toppings.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Breakfast Casserole</h3>
+                        <img src="https://img.freepik.com/free-photo/vegetarian-vegetable-casserole-with-zucchini-mushrooms-cherry-tomatoes_2829-11076.jpg?t=st=1726364358~exp=1726367958~hmac=a33b6ccb25c73f7cdd8472c51ce002d7a77c8f0278252e8804e9d64b78eaf10e&w=1380" alt="Breakfast Casserole" />
+                        <p>A baked dish often made with eggs, cheese, meat (like sausage or bacon), and vegetables, perfect for feeding a crowd.</p>
+                        <button class="read-more-btn" data-recipe="breakfast-casserole">Read More</button>
+                        <div class="recipe-details" id="breakfast-casserole">
+                            <p>Ingredients: Eggs, Cheese, Sausage, Bacon, Vegetables (e.g., bell peppers, onions), Bread Cubes.</p>
+                            <p>Instructions: Preheat oven. Cook the sausage and bacon. Combine all ingredients in a baking dish. Bake until set and golden.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Pancakes</h3>
+                        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pancakes" />
+                        <p>Fluffy pancakes served with maple syrup and fresh berries.</p>
+                        <button class="read-more-btn" data-recipe="pancakes">Read More</button>
+                        <div class="recipe-details" id="pancakes">
+                            <p>Ingredients: Flour, Sugar, Baking Powder, Milk, Eggs, Butter, Vanilla Extract.</p>
+                            <p>Instructions: Mix dry and wet ingredients separately. Combine and cook on a griddle. Serve with syrup and berries.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lunch Section -->
+        <section id="lunch" aria-labelledby="lunch-heading">
+            <h2 id="lunch-heading">Lunch Recipes</h2>
+            <div class="recipe-container">
+                <div class="recipe-card">
+                    <article>
+                        <h3>Caprese Sandwich</h3>
+                        <img src="https://images.pexels.com/photos/23996600/pexels-photo-23996600/free-photo-of-italian-caprese-sandwich.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Caprese Sandwich" />
+                        <p>A sandwich with fresh tomatoes, mozzarella cheese, basil, and a drizzle of balsamic glaze.</p>
+                        <button class="read-more-btn" data-recipe="caprese-sandwich">Read More</button>
+                        <div class="recipe-details" id="caprese-sandwich">
+                            <p><strong>Ingredients:</strong> Fresh tomatoes, Mozzarella cheese, Basil, Balsamic glaze, Ciabatta bread, Olive oil.</p>
+                            <p><strong>Instructions:</strong> Slice the ciabatta bread and drizzle with olive oil. Layer slices of fresh tomatoes and mozzarella cheese, and add basil leaves. Drizzle with balsamic glaze and serve.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Vegetable Frittata</h3>
+                        <img src="https://img.freepik.com/free-photo/italian-frittata-made-with-spinach-tomatoes-onion-peppers-white-wooden-table_123827-29612.jpg?t=st=1726362798~exp=1726366398~hmac=0e0539a3516bc340f2ce7fc63f71de526cb0828f8ddfe350759463ec2365c027&w=1380" alt="Vegetable Frittata" />
+                        <p>An egg-based dish loaded with vegetables like bell peppers, onions, and spinach.</p>
+                        <button class="read-more-btn" data-recipe="vegetable-frittata">Read More</button>
+                        <div class="recipe-details" id="vegetable-frittata">
+                            <p><strong>Ingredients:</strong> Eggs, Bell peppers, Onions, Spinach, Cheese (optional), Salt, Pepper, Olive oil.</p>
+                            <p><strong>Instructions:</strong> Whisk the eggs and season with salt and pepper. Sauté vegetables in olive oil until tender. Pour the egg mixture over the vegetables and cook until the edges are set. Finish under the broiler if needed to set the top.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Vegetarian Burrito</h3>
+                        <img src="https://img.freepik.com/free-photo/shawarma-from-juicy-beef-lettuce-tomatoes-cucumbers-paprika-onion-pita-bread-with-spinach-diet-menu_2829-14492.jpg?t=st=1726362949~exp=1726366549~hmac=95eae8aae882b50b7efc1d922e291ed263150ff5f96cbe81a28a00db330a063d&w=1380" alt="Vegetarian Burrito" />
+                        <p>A hearty burrito packed with beans, rice, and veggies.</p>
+                        <button class="read-more-btn" data-recipe="vegetarian-burrito">Read More</button>
+                        <div class="recipe-details" id="vegetarian-burrito">
+                            <p><strong>Ingredients:</strong> Flour tortillas, Black beans, Rice, Corn, Bell peppers, Onions, Cheese, Sour cream, Salsa, Avocado.</p>
+                            <p><strong>Instructions:</strong> Cook rice and beans. Sauté bell peppers and onions. Warm tortillas and layer with beans, rice, vegetables, cheese, and any desired toppings. Roll up and serve with salsa and sour cream.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dinner Section -->
+        <section id="dinner" aria-labelledby="dinner-heading">
+            <h2 id="dinner-heading">Dinner Recipes</h2>
+            <div class="recipe-container">
+                <div class="recipe-card">
+                    <article>
+                        <h3>Spaghetti Carbonara</h3>
+                        <img src="https://img.freepik.com/free-photo/classic-homemade-carbonara-pasta-with-pancetta-egg-hard-parmesan-cheese-cream-sauce_2829-4787.jpg?t=st=1726363367~exp=1726366967~hmac=ca14452ee45d68c9b577df130e4af9e34bd78af08bc9d32119724aada805478a&w=1800" alt="Spaghetti Carbonara" />
+                        <p>A classic Italian pasta dish with eggs, cheese, and bacon.</p>
+                        <button class="read-more-btn" data-recipe="spaghetti-carbonara">Read More</button>
+                        <div class="recipe-details" id="spaghetti-carbonara">
+                            <p><strong>Ingredients:</strong> Spaghetti, Pancetta or bacon, Eggs, Parmesan cheese, Garlic, Black pepper, Olive oil.</p>
+                            <p><strong>Instructions:</strong> Cook spaghetti according to package directions. Sauté pancetta with garlic in olive oil. Whisk eggs and cheese together. Combine pasta with pancetta and garlic, then toss with egg mixture until creamy. Season with black pepper and serve.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Vegetarian Lasagna</h3>
+                        <img src="https://img.freepik.com/free-photo/freshly-cooked-lasagna-with-savory-bolognese-sauce-generated-by-ai_188544-43143.jpg?t=st=1726363579~exp=1726367179~hmac=ec0b2c9975e48d5a8aa4122710fc15efd28b7a662fd39084a9e09861087c10fa&w=1800" alt="Vegetarian Lasagna" />
+                        <p>Layers of pasta, rich tomato sauce, and a mixture of vegetables, often including spinach, mushrooms, and zucchini, topped with cheese.</p>
+                        <button class="read-more-btn" data-recipe="vegetarian-lasagna">Read More</button>
+                        <div class="recipe-details" id="vegetarian-lasagna">
+                            <p><strong>Ingredients:</strong> Lasagna noodles, Tomato sauce, Ricotta cheese, Mozzarella cheese, Parmesan cheese, Spinach, Mushrooms, Zucchini, Garlic, Onion, Olive oil.</p>
+                            <p><strong>Instructions:</strong> Cook lasagna noodles. Sauté vegetables and mix with tomato sauce. Layer noodles with sauce and cheeses in a baking dish. Bake until bubbly and golden. Let it cool before slicing.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Beef Stir-fry</h3>
+                        <img src="https://img.freepik.com/free-photo/stir-frying-beef-with-sweet-peppers-green-beans_2829-20102.jpg?t=st=1726363721~exp=1726367321~hmac=b37cb1e570224f17d870a9c4a794188e2d9f259be6cc519b9c6f26f13dee2e25&w=1380" alt="Beef Stir-fry" />
+                        <p>Quick and easy stir-fry with beef and vegetables.</p>
+                        <button class="read-more-btn" data-recipe="beef-stir-fry">Read More</button>
+                        <div class="recipe-details" id="beef-stir-fry">
+                            <p><strong>Ingredients:</strong> Beef strips, Bell peppers, Green beans, Soy sauce, Garlic, Ginger, Olive oil, Cornstarch.</p>
+                            <p><strong>Instructions:</strong> Marinate beef in soy sauce, garlic, and ginger. Stir-fry beef until browned. Add vegetables and stir-fry until tender-crisp. Thicken sauce with cornstarch slurry if desired. Serve over rice.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Desserts Section -->
+        <section id="desserts" aria-labelledby="desserts-heading">
+            <h2 id="desserts-heading">Dessert Recipes</h2>
+            <div class="recipe-container">
+                <div class="recipe-card">
+                    <article>
+                        <h3>Cheesecake</h3>
+                        <img src="https://img.freepik.com/free-photo/homemade-newyork-cheesecake-with-frozen-berries-mint-healthy-organic-dessert-top-view_114579-10297.jpg?t=st=1726363853~exp=1726367453~hmac=54223a1a1280ee5c20239dad671927b8c43e61736e233861c3c7e2339bff576e&w=1380" alt="Cheesecake" />
+                        <p>A creamy and rich cheesecake with a graham cracker crust.</p>
+                        <button class="read-more-btn" data-recipe="cheesecake">Read More</button>
+                        <div class="recipe-details" id="cheesecake">
+                            <p><strong>Ingredients:</strong> Graham cracker crumbs, Butter, Cream cheese, Sugar, Eggs, Vanilla extract, Sour cream.</p>
+                            <p><strong>Instructions:</strong> Mix graham cracker crumbs with melted butter and press into a pan. Beat cream cheese with sugar until smooth, then add eggs and vanilla. Pour mixture over crust and bake. Let cool, then top with sour cream and chill before serving.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3>Brownies</h3>
+                        <img src="https://img.freepik.com/free-photo/brownies-with-peanut-butter_661915-488.jpg?t=st=1726364028~exp=1726367628~hmac=cffece5e92e92703b31479005828734d8842a612562c981d4ed75690f8abf553&w=1380" alt="Brownies" />
+                        <p>Deliciously fudgy brownies with a crispy crust.</p>
+                        <button class="read-more-btn" data-recipe="brownies">Read More</button>
+                        <div class="recipe-details" id="brownies">
+                            <p><strong>Ingredients:</strong> Butter, Sugar, Cocoa powder, Eggs, Flour, Vanilla extract, Salt.</p>
+                            <p><strong>Instructions:</strong> Melt butter and mix with cocoa powder. Stir in sugar and eggs, then add flour and salt. Pour into a pan and bake until set. Let cool before cutting into squares.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="recipe-card">
+                    <article>
+                        <h3> Ice Cream Sundae</h3>
+                        <img src="https://img.freepik.com/free-photo/coold-sweet-ice-cream-with-chocolate_144627-7294.jpg?t=st=1726364177~exp=1726367777~hmac=a7685660db8ef0b71872702d40b4ad782052050d64649600d2cab1e867d10741&w=1380" alt="Ice Cream Sundae" />
+                        <p>A classic treat with scoops of ice cream topped with sauces, nuts, whipped cream, and cherries.</p>
+                        <button class="read-more-btn" data-recipe="ice-cream-sundae">Read More</button>
+                        <div class="recipe-details" id="ice-cream-sundae">
+                            <p><strong>Ingredients:</strong> Ice cream, Chocolate sauce, Caramel sauce, Whipped cream, Nuts, Maraschino cherries.</p>
+                            <p><strong>Instructions:</strong> Scoop ice cream into bowls or glasses. Drizzle with chocolate and caramel sauces. Top with whipped cream, nuts, and cherries. Serve immediately.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Recipe Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
